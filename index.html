@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylescss/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="formulario">
+            <div class="botoes-alternar">
+                <button id="botao-cadastro" class="botao" onclick="abrirCadastro()">Cadastre-se</button>
+                <button id="botao-login" class="botao" onclick="abrirLogin()">Login</button>
+            </div>
+            <form class="base-formulario fechado" id="formulario-login">
+                <h3 class="titulo-form">Login</h3>
+                <div class="div-campos">
+                    <input class="input-form" id="usuario-login" type="text" placeholder="Usuario">
+                </div>
+                <div class="div-campos">
+                    <input class="input-form" id="senha-login" type="text" placeholder="Senha">
+                </div>
+            </form>
+
+            <button class="botao-finalizar fechado" id="finalizar-login" onclick="finalizarLogin()">Login</button>
+
+            <form class="base-formulario" id="formulario-cadastro">
+                <h3 class="titulo-form">Cadastre-se</h3>
+                <div class="div-campos">
+                    <input class="input-form" id="usuario-cadastro" type="text" placeholder="Usuario">
+                </div>
+                <div class="div-campos">
+                    <input class="input-form" id="senha-cadastro" type="text" placeholder="Senha">
+                </div>
+            </form>
+
+            <button class="botao-finalizar" id="finalizar-cadastro" onclick="finalizarCadastro()">Cadastre-se</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
