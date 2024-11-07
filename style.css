@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body, html {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(70,9,121,1) 54%, rgba(160,0,255,1) 100%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin: 15% 0% 10% 0%;
+    width: 350px;
+    border: 4px solid black;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botoes-alternar {
+    display: flex;
+    background-color: black;
+}
+
+.botao {
+    border-bottom: 4px solid black;
+    border-radius: 8px;
+    background-color: white;
+    height: 40px;
+    width: 175px;
+    font-size: 24px;
+    font-family: "Montserrat", bold;
+    font-weight: 500;
+}
+
+.base-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0%;
+    gap: 30px;
+}
+
+.div-campos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.titulo-form {
+    font-size: 32px;
+    font-family: "Montserrat", bold;
+    font-weight: 700;
+}
+
+.paragrafo-form {
+    font-size: 18px;
+    font-family: "inter", bold;
+    font-weight: 500;
+}
+
+.input-form {
+    background-color: white;
+    border-radius: 4px;
+    font-size: 24px;
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    outline: 0px;
+}
+
+.input-form:focus {
+    border: 3px solid rgb(0, 183, 255);
+    color: rgb(0, 183, 255);
+}
+
+.botao-finalizar {
+    margin: 10%;
+    background-color: rgb(0, 183, 255);
+    border: 3px solid rgb(0, 183, 255);
+    border-radius: 12px;
+    font-family: "inter";
+    font-size: 24px;
+    width: 150px;
+    height: 50px;
+}
+
+.botao-finalizar:hover {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.fechado {
+    display: none;
+}
+
+.botao-apertado {
+    background-color: rgb(39, 6, 46);
+    font-family: "Montserrat";
+    color: white;
+}
